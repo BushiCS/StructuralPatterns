@@ -1,2 +1,5 @@
-package org.example.adapter;public interface BinaryAdapter {
+package org.example.adapter;
+
+public interface BinaryAdapter {
+    String getDataAsString();
 }

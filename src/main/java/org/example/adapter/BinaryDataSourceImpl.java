@@ -1,2 +1,11 @@
-package org.example.adapter;public class BinaryDataSourceImpl {
+package org.example.adapter;
+
+import java.nio.charset.StandardCharsets;
+
+public class BinaryDataSourceImpl implements BinaryDataSource {
+
+    @Override
+    public byte[] getBinaryData() {
+        return "hello".getBytes(StandardCharsets.UTF_8);
+    }
 }
